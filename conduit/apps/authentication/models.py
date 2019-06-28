@@ -124,11 +124,12 @@ class User(AbstractBaseUser, PermissionsMixin):
         Generates a JSON Web Token that stores this user's ID and has an expiry
         date set to 60 days into the future.
         """
-        dt = datetime.now() + timedelta(days=60)
+        current_time = datetime.now()
+        expiry = current_time + timedelta(days=60)
 
         token = jwt.encode({
             'id': self.pk,
-            'exp': int(dt.strftime('%s'))
+            'exp': int(expiry.timestamp() * 1000)
         }, settings.SECRET_KEY, algorithm='HS256')
 
         return token.decode('utf-8')
