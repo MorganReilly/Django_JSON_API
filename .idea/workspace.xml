@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ba0539-3132-4966-b80c-f4d914e5a37c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conduit/apps/authentication/renderers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conduit/apps/authentication/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conduit/apps/core/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conduit/apps/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/apps/authentication/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conduit/apps/authentication/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/apps/authentication/backends.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conduit/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conduit/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -58,8 +52,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="64" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="64" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,22 +83,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conduit/urls.py">
+        <entry file="file://$PROJECT_DIR$/conduit/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#631#663#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="404">
+              <caret line="133" column="39" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conduit/settings.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/backends.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+            <state relative-caret-position="85">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,11 +121,12 @@
         <option value="$PROJECT_DIR$/conduit/apps/authentication/models.py" />
         <option value="$PROJECT_DIR$/conduit/urls.py" />
         <option value="$PROJECT_DIR$/conduit/apps/core/exceptions.py" />
-        <option value="$PROJECT_DIR$/conduit/settings.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/renderers.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/urls.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/views.py" />
+        <option value="$PROJECT_DIR$/conduit/settings.py" />
+        <option value="$PROJECT_DIR$/conduit/apps/authentication/backends.py" />
       </list>
     </option>
   </component>
@@ -242,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561643937540</updated>
-      <workItem from="1561643940710" duration="23021000" />
+      <workItem from="1561643940710" duration="28385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23021000" />
+    <option name="totallyTimeSpent" value="28385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="946" height="735" extended-state="0" />
@@ -298,6 +296,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="133" column="39" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conduit/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -315,13 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conduit/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/renderers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -332,29 +350,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/urls.py">
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/backends.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
