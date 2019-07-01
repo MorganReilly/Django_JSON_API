@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ba0539-3132-4966-b80c-f4d914e5a37c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conduit/apps/authentication/renderers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conduit/apps/authentication/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conduit/apps/core/exceptions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conduit/apps/authentication/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/apps/authentication/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conduit/apps/authentication/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/apps/authentication/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conduit/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conduit/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/conduit/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="127" column="38" lean-forward="true" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
+            <state relative-caret-position="404">
+              <caret line="97" column="11" lean-forward="true" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -26,13 +31,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="520">
+              <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conduit/apps/core/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/renderers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conduit/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#631#663#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conduit/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+            <state relative-caret-position="455">
+              <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -62,15 +121,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/conduit/settings.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/models.py" />
+        <option value="$PROJECT_DIR$/conduit/urls.py" />
+        <option value="$PROJECT_DIR$/conduit/apps/core/exceptions.py" />
+        <option value="$PROJECT_DIR$/conduit/settings.py" />
+        <option value="$PROJECT_DIR$/conduit/apps/authentication/renderers.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" />
+        <option value="$PROJECT_DIR$/conduit/apps/authentication/urls.py" />
+        <option value="$PROJECT_DIR$/conduit/apps/authentication/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="922" />
+    <option name="width" value="946" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -103,6 +167,13 @@
               <item name="conduit" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conduit-django-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conduit-django-master" type="462c0819:PsiDirectoryNode" />
+              <item name="conduit" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="conduit-django-master" type="b2602c69:ProjectViewProjectNode" />
@@ -142,6 +213,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="conduit.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -170,19 +242,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561643937540</updated>
-      <workItem from="1561643940710" duration="9328000" />
+      <workItem from="1561643940710" duration="23021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9328000" />
+    <option name="totallyTimeSpent" value="23021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="922" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="946" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22853829" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22234763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -193,7 +265,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -216,29 +288,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conduit/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="127" column="38" lean-forward="true" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
+        <state relative-caret-position="404">
+          <caret line="97" column="11" lean-forward="true" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/core/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/renderers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="520">
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
